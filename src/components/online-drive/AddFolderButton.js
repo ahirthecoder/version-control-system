@@ -41,7 +41,7 @@ export default function AddFolderButton({ currentFolder }) {
   return (
     <>
       <Button onClick={openModal} variant="outline-dark" size="sm">
-        New Folder
+        New Repo
       </Button>
       <Modal
         show={open}
