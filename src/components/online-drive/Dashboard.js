@@ -145,7 +145,7 @@ export default function Dashboard(props) {
           <>
             {childFolders.length} folders
             <br />
-            <div className="d-flex flex-wrap">
+            <div className="">
               {childFolders
                 .filter((val) => {
                   if (search == "") {
@@ -161,6 +161,7 @@ export default function Dashboard(props) {
                     <div key={childFolder.id} style={{}} className="m-2">
                       <Folder folder={childFolder} />
                     </div>
+                    <hr />
                   </div>
                 ))}
             </div>

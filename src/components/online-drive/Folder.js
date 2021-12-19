@@ -34,7 +34,7 @@ export default function Folder({ folder }) {
         as={Link}
       >
         <div className="folder w-75 ">
-          <svg
+          {/* <svg
             width="66"
             viewBox="0 0 96 76"
             fill="none"
@@ -45,7 +45,7 @@ export default function Folder({ folder }) {
               fill="#DDF1F3"
               stroke="#189EAE"
             />
-          </svg>
+          </svg> */}
         </div>
 
         <svg
