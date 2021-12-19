@@ -37,7 +37,7 @@ export default function Login() {
             <Form.Group id="email">
               <Form.Label>Email</Form.Label>
               <Form.Control
-                defaultValue="milanjakhotra1234@gmail.com"
+                // defaultValue="milanjakhotra1234@gmail.com"
                 type="email"
                 ref={emailRef}
                 required
@@ -46,7 +46,7 @@ export default function Login() {
             <Form.Group id="password">
               <Form.Label>Password</Form.Label>
               <Form.Control
-                defaultValue="Milan@2001"
+                // defaultValue="Milan@2001"
                 type="password"
                 ref={passwordRef}
                 required

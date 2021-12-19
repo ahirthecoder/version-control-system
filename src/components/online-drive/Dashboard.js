@@ -97,13 +97,13 @@ export default function Dashboard(props) {
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end align-items-centre">
               <div className="">
-                {folder.name !== "Root" && (
-                  <AddFileButton currentFolder={folder} />
-                )}
+                {/* {folder.name !== "Root" && ( */}
+                <AddFileButton currentFolder={folder} />
+                {/* )} */}
                 <span> </span>
-                {folder.name === "Root" && (
-                  <AddFolderButton currentFolder={folder} />
-                )}
+                {/* {folder.name === "Root" && ( */}
+                <AddFolderButton currentFolder={folder} />
+                {/* )}  */}
               </div>
             </Navbar.Collapse>
           </Container>
