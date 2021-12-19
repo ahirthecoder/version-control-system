@@ -87,7 +87,7 @@ export default function AddFileButton({ currentFolder }) {
   return (
     <>
       <label className="btn btn-outline-success btn-sm m-0 mr-2">
-        {/* New File */}
+        New File
         <input
           type="file"
           onChange={handleUpload}

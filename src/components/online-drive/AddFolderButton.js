@@ -56,7 +56,7 @@ export default function AddFolderButton({ currentFolder }) {
         <Form onSubmit={handleSubmit}>
           <Modal.Body>
             <Form.Group>
-              <Form.Label>Name of the Folder</Form.Label>
+              <Form.Label>Name of the Repo</Form.Label>
               <Form.Control
                 type="text"
                 required

@@ -33,7 +33,7 @@ export default function Folder({ folder }) {
         className="w-100 drop"
         as={Link}
       >
-        <div className="folder w-75 ">
+        <div className=" ">
           {/* <svg
             width="66"
             viewBox="0 0 96 76"

@@ -91,14 +91,19 @@ export default function Dashboard(props) {
           <Container>
             <Navbar.Brand>
               {" "}
-              {childFolders.length} folders, {childFiles.length} Files
+              {childFolders.length} Repostories
+              {/* {childFiles.length} Files */}
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end align-items-centre">
               <div className="">
-                <AddFileButton currentFolder={folder} />
+                {folder.name !== "Root" && (
+                  <AddFileButton currentFolder={folder} />
+                )}
                 <span> </span>
-                <AddFolderButton currentFolder={folder} />
+                {folder.name === "Root" && (
+                  <AddFolderButton currentFolder={folder} />
+                )}
               </div>
             </Navbar.Collapse>
           </Container>
@@ -118,7 +123,7 @@ export default function Dashboard(props) {
             style={BarStyling}
             key="random1"
             value={search}
-            placeholder={"search Folder or File"}
+            placeholder={"Search"}
             onChange={(e) => setSearch(e.target.value)}
           />
           <button
@@ -143,7 +148,7 @@ export default function Dashboard(props) {
         <hr />
         {childFolders.length > 0 && (
           <>
-            {childFolders.length} folders
+            {childFolders.length} Repos
             <br />
             <div className="">
               {childFolders
