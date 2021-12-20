@@ -102,7 +102,7 @@ export default function Folder({ folder }) {
                   fill="#717171"
                 />
               </svg>
-              <span> Duplicate</span>{" "}
+              <span> Duplicate Repository</span>{" "}
             </Button>
 
             <Button
@@ -125,7 +125,7 @@ export default function Folder({ folder }) {
                 />
               </svg>
 
-              <span> Delete Folder</span>
+              <span> Delete Repository</span>
             </Button>
           </DropdownButton>
         </div>

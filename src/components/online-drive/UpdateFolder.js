@@ -40,7 +40,7 @@ export default function UpdateFolder({ currentFolder }) {
             fill="#717171"
           />
         </svg>
-        <span> Rename Folder</span>
+        <span> Rename Repository</span>
       </Button>
 
       <Modal
@@ -51,7 +51,7 @@ export default function UpdateFolder({ currentFolder }) {
         centered
       >
         <div className="p-2 " style={{ fontWeight: "500" }}>
-          Rename folder
+          Rename Repository
         </div>
         <Form>
           <Modal.Body>
@@ -75,7 +75,7 @@ export default function UpdateFolder({ currentFolder }) {
               }}
               onClick={onUpdate}
             >
-              Rename Folder
+              Rename Repository
             </Button>
           </Modal.Footer>
         </Form>

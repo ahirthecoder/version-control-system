@@ -51,7 +51,7 @@ export default function AddFolderButton({ currentFolder }) {
         centered
       >
         <div className="ml-2 mt-3 " style={{ fontWeight: "500" }}>
-          <span style={{ color: "white" }}>o</span> Create a new folder
+          <span style={{ color: "white" }}>o</span> Create a new Repo
         </div>
         <Form onSubmit={handleSubmit}>
           <Modal.Body>
@@ -75,7 +75,7 @@ export default function AddFolderButton({ currentFolder }) {
               }}
               type="submit"
             >
-              Add Folder
+              Create
             </Button>
           </Modal.Footer>
         </Form>
